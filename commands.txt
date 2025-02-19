@@ -1,0 +1,33 @@
+# Terminal Commands
+
+## Git Commands
+- 'git config --list' - Check git configuration
+- 'git init' - Initialize repository
+- 'git push origin main' - Push to main branch
+
+### Creating README
+- 'echo "# my-first-project" >> README.md' - Creates a README.md file with project heading
+
+### Repository Setup
+- 'git init' - Initializes a git repository in VS Code
+- 'git add README.md' - Adds README.md file to repository
+- 'git commit -m "first commit"' - Commits with initial message
+- 'git branch -M main' - Sets up main branch
+- 'git remote add origin https://...' - Links to GitHub repository
+- 'git push -u origin main' - Pushes project to GitHub
+
+### Staging Commands
+- 'git add <file path>' - Add specific file to staging
+- 'git add <file path> <file path> <file path>' - Add multiple specific files
+- 'git add .' - Stage all modified/new files in current folder
+  - Note: Unstaged changes won't be included in next commit
+  - Useful for quickly staging all changes without specifying each file
+
+## Python Server Commands
+- 'python3 -m http.server 8000' - Start local server
+- 'Control + C' - Stop server
+
+## VS Code Shortcuts (Mac)
+- Command + ' - Open/close terminal
+- Command + S - Save file
+- Command + Shift + P - Command palette
